@@ -1,0 +1,42 @@
+﻿# Environment and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# SQLite databases and backups
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.bak
+
+# Logs and temporary files
+*.log
+logs/
+backups/
+*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Development backup files
+*.backup
+*_backup.py
+*.before_*
+*.py.before_*
